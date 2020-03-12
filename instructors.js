@@ -20,8 +20,6 @@ exports.post = function (req, res) {
     const keys = Object.keys(req.body)
     //  console.log(req.body) //=> teste pra ver o que esta retornando req.body
     for (key of keys) {
-        // console.log(key) //teste
-        // console.log(keys)
 
         if (req.body[key] == "") {
             res.send("Please, fill all fields!")
@@ -167,7 +165,7 @@ exports.put = function ( req , res){
     
     const { id } = req.body // retirando id para ser uma variavel
     let index = 0
-    
+
     const foudInstructor = data.instructors.find(function (instructor, foundIndex) {
         if (id == instructor.id) {
             index = foundIndex

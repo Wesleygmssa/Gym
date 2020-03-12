@@ -1,13 +1,5 @@
 {
   "instructors": [
-    {
-      "id": "1",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/41512408?s=460&v=4",
-      "name": "Wesley Guerra",
-      "birth": 654739200000,
-      "gender": "M",
-      "services": "Musculação, natação",
-      "created_at": 1584022701805
-    }
+   
   ]
 }

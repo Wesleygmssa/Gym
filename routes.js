@@ -10,7 +10,7 @@ const instructors = require('./instructors')//(instructors.js) funções auxilia
     })
 
     routes.get('/instructors', function (req, res) { 
-        return res.render('instructors/index')
+        return res.render('instructors/create')
     })
 
     routes.get('/instructors/create', function (req, res) {
